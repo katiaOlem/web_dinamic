@@ -1,0 +1,17 @@
+$def with(resultado)
+<a href="/">Regresar</a>
+
+<h1>Web dinàmica del lado del servidor</h1>
+
+<form action="" method="POST">
+    <label>Número 1</label>
+    <input type="number" name="num1" id="num1" value="0">
+    <br>
+    <label>Número 2</label>
+    <input type="number" name="num2" id="num2" value="0">
+    <br>
+    <label>Resultado</label>
+    <input type="number"  readonly name="resultado" id="resultado" value=$resultado>
+    <br>
+    <input type="submit" value="SUMAR">
+</form>
